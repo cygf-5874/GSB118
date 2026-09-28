@@ -1,0 +1,19 @@
+{
+  "name": "gsb118-httplite",
+  "version": "0.0.0",
+  "private": true,
+  "description": "HTTP/1.1 请求解析库（Node.js 22，ESM，零第三方依赖）",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/httplite.js",
+  "exports": {
+    ".": "./src/httplite.js",
+    "./errors": "./src/errors.js"
+  },
+  "scripts": {
+    "check": "node check/check.mjs",
+    "test": "node --test"
+  }
+}
